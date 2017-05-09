@@ -1,3 +1,32 @@
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbarli {
+    float: right;
+
+}
+
+.navbarli a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+  img.appsi{
+   max-width:40%;
+   max-height:40%;
+}
 
 .logo {
   height: 300px;
@@ -30,10 +59,34 @@
 }
 
 .gsearch {
-
+    position: relative;
+  left: 5%;
 }
 
 .lucky{
     position: relative;
   left: 90%;
+}
+
+/* Footer */
+
+ul.footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+.footerbarli {
+    float: left;
+
+}
+
+.footerbarli a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
