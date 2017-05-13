@@ -1,39 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Google Homepage</title>
+  <title>Google Search Result</title>
   <link href="styles/styles.css" type="text/css" rel="stylesheet">
 </head>
 
-<ul class="navbar">
-  <li class="navbarli"><a href="profile">Profile</a></li>
-  <li class="navbarli"><a href="apps"><img class="appsi" src="images/apps.png"></a></li>
-  <li class="navbarli"><a href="images">Images</a></li>
-  <li class="navbarli"><a href="gmail">Gmail</a></li>
+<div class=navbar>
+    <img class = "logo" style="float:left" src="images/logo.png" alt="Google Logo">
+<div class=container style="float:left">
+    <form action ="processingscript.php" style="float:left" method="GET">
+      <input class="search" type="text" value="  Search">
+    </form>
+      <div class="all" style="float:left">All</div>
+      <div class="videos" style="float:left">Videos</div>
+      <div class="news" style="float:left">News</div>
+      <div class="maps" style="float:left">Maps</div>
+      <div class="images" style="float:left">Images</div>
+      <div class="more" style="float:left">More</div>
+      <div class="tools" style="float:right">Tools</div>
+      <div class="settings" style="float:right">Settings</div>
+    </div>
+
+    <img class="appsi" style="float:right" src="images/apps.png">
+    <div class="profile" style="float:right">Profile</div>
 </div>
-</ul>
 
-<div class="logo">
-  <img src="images/logo.png" alt="Google Logo">
-  <div class="canada">Canada</div>
+<div class="results">
+  <div class="italics">About 2,390,000 results (0.71 seconds)</div>
+
+  <a href="https://arstechnica.com/.../with-zero-coding-experience-artist-building-180-webpages"><h3>With zero coding experience, artist building 180 webpages in 180 days</h3>https://arstechnica.com/.../with-zero-coding-experience-artist-building-180-webpages</a>
+  <br><div class="italics">Jul 26, 2013</div> - 117 days ago, having never done any programming in her life, Jennifer Dewalt built her first webpage. The next day, she built another, and she ...
+  You visited this page on 08/05/17.
+
+  <a href="https://websitesetup.org/">  <h3>How to Make a Website - Step-by-Step Guide for Beginners</h3>https://websitesetup.org/</a>
+  <br><div class="italics">Nov 25, 2016</div> - Learn how to make a website and set it up. This site contains different tutorials on how to build a website using WordPress, Joomla, Drupal ...
+‎  How to Start a Blog · ‎On Bluehost's · ‎New to Here? · ‎How to Customize WordPress
+  You visited this page.
 </div>
 
-<form action ="processingscript.php" method="GET">
-  <input class="search" type="text" value="Search">
-  <div class="buttons">
-  <input class="gsearch" type="button" value="Google Search">
-  <input class="lucky" type="button" value="I'm Feeling Lucky">
-  </div>
-</form>
-
-<ul class="footer">
-  <li class="footerbarli"><a href="ads">Advertising</a></li>
-  <li class="footerbarli"><a href="business">Business</a></li>
-  <li class="footerbarli"><a href="about">About</a></li>
-  <li class="footerbarli" style="float:right"><a href="settings">Settings</a></li>
-  <li class="footerbarli" style="float:right"><a href="terms">Terms</a></li>
-  <li class="footerbarli" style="float:right"><a href="privacy">Privacy</a></li>
-</ul>
+<div class="footerlinks">
+  <ul class="footer">
+    <li class="location">A1L 2R6, Paradise, NL - From your phone
+      (Location History) <div class="preciselocation">- Use precise location</div>
+          <div class="learnlocation">- Learn more</div></li>
+    <li class="help">Help</li>
+    <li class="feedback">Send Feedback</li>
+    <li class="privacy">Privacy</li>
+    <li class="terms">Terms</li>
+    <li class="usegoog">Use Google.com</li>
+  </ul>
+</div>
 
 
 </html>
