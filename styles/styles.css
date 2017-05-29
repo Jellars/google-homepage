@@ -1,19 +1,19 @@
 #wrapper {
     margin-left:auto;
     margin-right:auto;
-    width:960px;
+    width:1920px;
 }
 
 img.logo {
   margin: 11px;
-  max-width:7%;
-  max-height:7%;
+  width:130px;
+  height:48px;
 }
 
 img.searchicons {
   padding-top: 6px;
-  max-width:8%;
-  max-height:8%;
+  width: 100px;
+  height: 52px;
   position: relative;
   left:-80px;
 
@@ -30,13 +30,28 @@ img.searchicons {
   height: 120px;
   width: 600px;
 }
-.navbar{
+
+.navbars{
+  position: absolute;
+  min-width:1000px;
+  top: 0;
   left:0;
   margin: 0;
   padding: 0;
   overflow: hidden;
   width: 100%;
   background-color: WhiteSmoke ;
+}
+
+.footerbar{
+  width: 100%;
+  min-width:900px;
+  background-color: whitesmoke;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .profile:hover, .appsi:hover, .all:hover, .videos:hover, .new:hover,
@@ -74,8 +89,9 @@ h3 {
 }
 
 .results {
-  width: 80%;
-  margin: 0 auto;
+  position: static;
+  width: 83%;
+  margin: 125px auto;
   padding: 15px;
 }
 .italics {
@@ -86,16 +102,6 @@ h3 {
 
 /* Footer */
 
-.footerbar{
-  width: 100%;
-  min-width:900px;
-  background-color: whitesmoke;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  margin: 0;
-  padding: 0;
-}
 
 ul.footer {
   list-style-type: none;
